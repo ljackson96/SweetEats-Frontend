@@ -1,6 +1,6 @@
 let deserts = [];
 const desertClass = document.querySelector('.desert-container');
-const filterInput = document.getElementById('filterInput');
+const button = document.querySelector('.button');
 url = 'http://localhost:3000/recipes'
 
 // LOAD CONTENT FROM API ONLOAD
@@ -107,6 +107,13 @@ document.addEventListener('DOMContentLoaded', () =>{
          e.target.previousElementSibling.innerText = `${likeCount} Likes`; 
          //console.log(e.target);
          //e.srcElement.disabled = false
+    }
+
+    function disableUser(){
+        const button = document.querySelector('.btn');
+        button.classList.remove('btn-light');
+        button.classList.add('btn-warning');
+        button.classList.add('disabled')
     }
 
 
