@@ -1,0 +1,40 @@
+body{
+    text-align: -webkit-center;
+    justify-content: space-evenly
+}
+
+  .desert-url {
+      height: 25rem;
+      width: 25rem;
+      display: grid;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: space-evenly;
+  }
+
+  .description {
+    text-align: center;
+    display: inline;
+    border-bottom: 10px black;
+    font-size: large;
+  }
+
+  .like-btn {
+      display: list-item;
+  }
+
+  img {
+    vertical-align: middle;
+    border-style: solid;
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+  -ms-flex-negative: 0;
+  flex-shrink: 50%;
+  width: 40%;
+}
+
+.form 
+  {
+  margin-bottom: 10vh;
+}
